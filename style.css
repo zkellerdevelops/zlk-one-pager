@@ -1,0 +1,72 @@
+body {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+h1 {
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+  font-size: 3rem;
+  margin: 0 auto;
+}
+
+h2 {
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  margin: .25rem 0;
+}
+
+header {
+  display: flex;
+  justify-content: flex-start;
+  /* height: 10vh; */
+}
+
+.zlk-logo {
+  height: 2rem;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+  justify-content: center;
+}
+
+.container {
+  flex: 0 1 auto;
+  align-self: center;
+}
+
+.inner {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  padding: 2rem 0 0 0;
+}
+
+.social-block {
+  padding: .5rem;
+}
