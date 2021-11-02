@@ -59,6 +59,12 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: center;
+
+}
+@media (max-width: 767.98px) {
+  .inner {
+    align-items: flex-start;
+  }
 }
 
 .social {
